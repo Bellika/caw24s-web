@@ -1,0 +1,65 @@
+.container {
+    margin: 20px;
+    border: 1px solid #333;
+    width: 30%;
+    height: 300px;
+}
+
+section {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #333;
+}
+
+
+/* Flexbox container */
+.flexbox-container {
+    display: flex;
+    /* Flex-direction determines where the main-axis/cross-axis is */
+    flex-direction: row; /* row (default) | row-reverse | column | column-reverse; */
+    flex-wrap: nowrap; /*nowrap (default) | wrap | wrap-reverse;*/
+    /* Short-hand */
+    flex-flow: column wrap; /* <flex-direction> <flex-wrap> */
+
+    /* Positioning individual items along the main-axis */
+    justify-content: flex-start; /*flex-start (default) | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;*/
+    /* Positioning individual items along the cross-axis */
+    align-items: flex-start; /* stretch (default)| flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;*/
+
+    /* Positioning lines along the cross-axis */
+    /* Needs multiple lines and enough space, to take effect */
+    align-content: flex-start; /* normal (default) |flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline | first baseline | last baseline + ... safe | unsafe;*/
+}
+
+/* Flexbox items */
+.flexbox-items {
+    display: flex;
+    align-items: center;
+}
+
+.box5 {
+    align-self: flex-end; /* stretch (default)| flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;*/
+}
+
+.box6 {
+    /* The lower the value, the higher priority it gets */
+    order: -2; /* default is 0 */
+}
+
+.box7 {
+    /* The lower the value, the higher priority it gets */
+    order: 0; /* default is 0 */
+    flex-grow: 1; /* default is 0 */
+    flex-shrink: 1; /* default 1 */
+}
+
+.box8 {
+    /* The lower the value, the higher priority it gets */
+    order: 0; /* default is 0 */
+    flex-grow: 3; /* default is 0 */
+    flex-shrink: 5; /* default 1 */
+    flex-basis: 50px; /* default auto, meaning it inherits height or width */
+    /* Short-hand */
+    flex: 0 1 100px; /*[ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]*/
+}
+
