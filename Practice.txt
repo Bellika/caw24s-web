@@ -1,5 +1,25 @@
-HTML: 
+Lektion-1
+
+Basic-HTML: 
 https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-by-building-a-cat-photo-app
 
-CSS:
+Basic-CSS:
 https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-basic-css-by-building-a-cafe-menus
+
+
+Lektion-2
+
+Flex and grid documentation:
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Start with completing theses two games:
+
+Grid Garden:
+https://cssgridgarden.com/
+
+Flexbox Froggy:
+https://flexboxfroggy.com/
+
+
+For more practice you can do the grid and flexbox assignment in lektion-2 (start with the grid and then do the flexbox)
