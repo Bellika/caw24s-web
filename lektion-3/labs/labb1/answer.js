@@ -57,11 +57,7 @@ console.log("Ready to begin.");
  */
 
 
-
-
-
-
-ANSWER = "Replace this text with the variable holding the answer.";
+ANSWER = "";
 
 // I will now test your answer - change false to true to get a hint.
 dbwebb.assert("1.1", ANSWER, false);
