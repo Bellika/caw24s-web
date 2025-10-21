@@ -1,0 +1,11 @@
+Create React project with Vite and TS: 
+
+npm create vite@latest my-react-app -- --template react-ts
+cd my-react-app
+npm install
+npm run dev
+
+To install react-router-dom: 
+npm install react-router-dom
+
+
