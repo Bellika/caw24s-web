@@ -1,0 +1,49 @@
+Gruppuppgift: Fullstack Webbapplikation med Express och React
+Översikt:
+I denna gruppuppgift ska ni utveckla en fullstack webbapplikation som använder Express som backend och React för frontend. Applikationen kan vara vad ni själva väljer att bygga, men måste uppfylla specifika krav för funktionalitet, dokumentation och samarbete. Ni ska vara 4 personer per grupp. Skriv erat gruppnamn och vilka medlemmar ni är till mig på Discord.
+
+Kravspecifikation:
+1. Frontend - React
+Applikationen ska vara byggd med React som frontend-ramverk.
+UI ska vara användarvänlig och responsiv. 
+Grafisk profil ska dokumenteras i README.md.
+Grafisk profil ska inkludera:
+Färgschema (primära och sekundära färger)
+Fonter och typsnitt (inklusive rubrikstorlekar, brödtext, m.m.)
+Designprinciper (som t.ex. minimalism, material design, eller andra riktlinjer ni följer)
+2. Backend - Express
+Backend ska byggas med Express och ska tillhandahålla ett REST API som utför CRUD-operationer på en databas.
+Alla CRUD-operationer (Create, Read, Update, Delete) måste vara implementerade.
+Express-backend ska vara korrekt strukturerad och använd Models, Controllers, Routes för att hantera olika delar av applikationen.
+Välj en databas som passar er applikation (t.ex. SQLite, PostgreSQL eller MongoDB).
+Backend måste använda JWT eller en annan form av autentisering (för att hantera användarregistrering och inloggning, om relevant).
+3. Versionshantering och Samarbete
+Git ska användas för versionshantering och all kod ska finnas i ett delat GitHub-repository.
+Alla gruppmedlemmar ska göra åtminstone en sida som kopplar samman backend och frontend.
+Commit messages ska följa konventionen:
+Använd imperativ form (ex. "Fix bug", "Add feature", "Refactor code")
+Beskriv kortfattat vad som förändrats.
+Dela upp stora ändringar i flera commits om möjligt.
+4. Dokumentation
+README.md ska innehålla följande:
+Projektbeskrivning: En kort beskrivning av applikationen och dess syfte.
+Installation och Start:
+Steg-för-steg-instruktioner för hur man installerar och kör applikationen lokalt.
+Krävs vissa Node-paket? Om ja, inkludera en lista och instruktioner för installation (t.ex. package.json).
+Grafisk Profil: Dokumentation om färger, fonter och designprinciper som används i applikationen.
+Branchstruktur: Beskrivning av hur branscher ska användas (t.ex. main för stabil kod, dev för utveckling, och feature-branscher för specifika uppgifter).
+Databasstruktur: Beskriv hur databasen är strukturerad och vilka tabeller eller samlingar som används.
+Kända buggar/kommande funktioner (om några).
+5. Andra Krav
+Gruppmedlemmar måste samarbeta på ett effektivt sätt och se till att alla är involverade i projektet. Alla ska ha ansvar för en egen sida (eller del) av applikationen som integreras med de andras delar. Alla gruppmedlemmar ska alltså ha en egen undersida typ /ContactUs där den visar att den behärskar koncepten vi har gått igenom. Alla crud-operationer ska finnas på appen men på er egen sida räcker det med att ni demonstrerar MINST ett typ av request t.ex. GET och POST.
+Se till att applikationen är användarvänlig och användbar, även om det är en prototyp.
+Demo av applikation.
+5. VG
+Autentisering via JWT / Session - man ska helt enkelt kunna logga in på er applikation. Ni behöver bygga själva systemet för inloggningen med auth-routes men varje gruppmedlem som siktar på VG måste göra så att man behöver vara inloggad för nå den medlemmens sida, alternativt att det finns ett inloggad läge och ett utloggat.
+Tester. Ni ska köra någon form av tester på koden.
+
+Viktiga Datum:
+Inlämning: 7/11 23:59
+Presentation & Demo: 6/11 09:00
+
+
